@@ -1,7 +1,7 @@
 import React from 'react';
 
-import '/Users/adityaarora/drivesprojectnew/src/app/globals.css';
-import '/Users/adityaarora/drivesprojectnew/src/app/contact/styles.module.css';
+import '/src/app/globals.css';
+import '/src/app/contact/styles.css';
 
 
 export default function contact() {

@@ -2,11 +2,11 @@
 
 import React from 'react';
 import { useUser,withPageAuthRequired } from '@auth0/nextjs-auth0/client';
-import Image from 'next/image';
-import '/Users/adityaarora/drivesprojectnew/src/app/dashboard/styles.module.css'
-import NavBar from '/Users/adityaarora/drivesprojectnew/src/app/dashboard/components/navbar.js';
-import HeroSection from '/Users/adityaarora/drivesprojectnew/src/app/dashboard/components/herosection.js';
-import Hero from '@/components/hero';
+
+import '/src/app/dashboard/styles.css'
+import NavBar from '/src/app/dashboard/components/navbar.js';
+import HeroSection from '/src/app/dashboard/components/herosection.js';
+
 
 
 

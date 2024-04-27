@@ -2,11 +2,12 @@
 import React from 'react';
 
 import { useUser, withPageAuthRequired } from '@auth0/nextjs-auth0/client';
-import Navbar from '../dashboard/components/navbar';
-import '/Users/adityaarora/drivesprojectnew/src/app/dashboard/styles.module.css'
+
+import '/src/app/dashboard/styles.css'
 import Image from 'next/image';
-import '/Users/adityaarora/drivesprojectnew/src/components/navbar.module.css';
-import CarCard from '/Users/adityaarora/drivesprojectnew/src/app/bookedcars/carbook.js'
+import '/src/components/navbar.css';
+import CarCard from '/src/app/dashboard/components/carcard.js';
+
 
 export default withPageAuthRequired(function BookedCars() {
 
@@ -28,8 +29,6 @@ export default withPageAuthRequired(function BookedCars() {
         </div>
     </div>
     <CarCard/>
-
-    
 
     
 

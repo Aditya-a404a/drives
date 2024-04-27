@@ -1,7 +1,7 @@
 
 "use client";
 import React  from "react";
-import '/Users/adityaarora/drivesprojectnew/src/app/addcar/styles.module.css'
+import '/src/app/addcar/styles.css'
 
 
 import { useUser, withPageAuthRequired } from "@auth0/nextjs-auth0/client";
