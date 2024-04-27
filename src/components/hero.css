@@ -18,6 +18,10 @@
     display: flex;
     margin-top: 0 px;
     justify-content: space-around;
+    font-size: 2.0rem;
+    font-weight: bold;
+    
+    margin: 0;
 
 }
 
