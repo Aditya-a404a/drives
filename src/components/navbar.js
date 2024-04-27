@@ -21,7 +21,7 @@ export default function NavBar() {
         <nav className="navbar">
             <div className="navbar-inner">
                 
-                <h1>Drives ō͡≡o</h1>
+                <h1 className="nav-heading">Drives ō͡≡o</h1>
                 <ul className="navbar-menu">
                     <li className="navbar-item">
                         <a href="/" className="navbar-link">Home</a>

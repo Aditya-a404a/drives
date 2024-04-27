@@ -5,7 +5,7 @@ import '/Users/adityaarora/drivesprojectnew/src/components/navbar.css';
 import { useUser,withPageAuthRequired } from '@auth0/nextjs-auth0/client';
 
 import Image from 'next/image';
-import '/Users/adityaarora/drivesprojectnew/src/app/profile/styles.css'
+import '/Users/adityaarora/drivesprojectnew/src/app/profile/styles.module.css'
 
 export default withPageAuthRequired(function Profile() {
     

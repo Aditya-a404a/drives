@@ -30,23 +30,23 @@ export default withPageAuthRequired(function addcar() {
       <form className="hero-section-form">
 
         <div className="hero-section-form-input">
-          <label>Car Name</label>
+          <label className="hero-label">Car Name</label>
           <input type="text" placeholder="Enter Car Name" className="hero-input-field" />
         </div>
         <div className="hero-section-form-input">
-          <label>Car Model</label>
+          <label className="hero-label">Car Model</label>
           <input type="text" placeholder="Enter Car Model" className="hero-input-field" />
         </div>
         <div className="hero-section-form-input">
-          <label>Car Number</label>
+          <label className="hero-label">Car Number</label>
           <input type="text" placeholder="Enter Car Number" className="hero-input-field" />
         </div>
         <div className="hero-section-form-input">
-          <label>Car Image</label>
+          <label className="hero-label">Car Image</label>
           <input type="file" className="hero-input-field" />
         </div>
         <div className="hero-section-form-input">
-          <label>Car Price</label>
+          <label className="hero-label">Car Price</label>
           <input type="text" className="hero-input-field" placeholder="Enter Car Price per Day" />
         </div>
         <div className="hero-section-form-input">

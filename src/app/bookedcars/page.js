@@ -3,9 +3,9 @@ import React from 'react';
 
 import { useUser, withPageAuthRequired } from '@auth0/nextjs-auth0/client';
 import Navbar from '../dashboard/components/navbar';
-import '/Users/adityaarora/drivesprojectnew/src/app/dashboard/styles.css'
+import '/Users/adityaarora/drivesprojectnew/src/app/dashboard/styles.module.css'
 import Image from 'next/image';
-import '/Users/adityaarora/drivesprojectnew/src/components/navbar.css';
+import '/Users/adityaarora/drivesprojectnew/src/components/navbar.module.css';
 import CarCard from '/Users/adityaarora/drivesprojectnew/src/app/bookedcars/carbook.js'
 
 export default withPageAuthRequired(function BookedCars() {
