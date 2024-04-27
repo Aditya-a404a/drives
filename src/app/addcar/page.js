@@ -8,8 +8,6 @@ import { useUser, withPageAuthRequired } from "@auth0/nextjs-auth0/client";
 
 import Image from "next/image";
 
-import CarCard from '/Users/adityaarora/drivesprojectnew/src/app/dashboard/components/carcard.js';
-
 export default withPageAuthRequired(function addcar() {
     const { user,isloading} = useUser();
   return (

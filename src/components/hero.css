@@ -21,9 +21,7 @@
 
 }
 
-.hero-title{
-    
-}
+
 .hero-subtitle{
     font-size: 3.0rem;
     justify-content: space-around;
@@ -61,8 +59,7 @@
 }
 
 .hero-rent-tag{
-    padding : 10px;
-    
+    padding : 10px; 
     font-weight: bold;
     margin: 10px;
 
