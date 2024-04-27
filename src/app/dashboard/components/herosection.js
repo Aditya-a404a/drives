@@ -3,7 +3,7 @@ import React from "react";
 import { useUser, withPageAuthRequired } from "@auth0/nextjs-auth0";
 
 import Image from "next/image";
-import CarCard from '/Users/adityaarora/drivesprojectnew/src/app/dashboard/components/carcard.js';
+import CarCard from '/src/app/dashboard/components/carcard.js';
 
 
 export default function HeroSection() {

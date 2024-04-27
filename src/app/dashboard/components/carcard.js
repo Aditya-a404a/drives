@@ -1,9 +1,7 @@
 import React from 'react';
 
-import { useUser, withPageAuthRequired } from '@auth0/nextjs-auth0/client';
-
 import Image from 'next/image';
-import honda from "/Users/adityaarora/drivesprojectnew/public/honda.png"
+import honda from "/public/honda.png"
 
 
 export default function CarCard() {
