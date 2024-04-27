@@ -1,0 +1,229 @@
+.navbar
+{
+
+    display: flex;
+    justify-content: space-between;
+    min-height: fit-content;
+    
+
+    
+    padding: 15px;
+    border-bottom-width: 2px;
+    border-color: tomato;
+    
+    
+}
+
+.navbar a
+{   
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.navbar-logo
+{
+    display: flex;
+    align-items: center;
+    font-size: 2.0rem;
+    font-weight: bold;
+    color :tomato;
+}
+
+.navbar-profile
+
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    font-size: 2.0rem;
+}
+
+.navbar-add-car{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+    margin-right:5px;
+    color : tomato;
+    border-radius: 5px;
+    font-weight: 700;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+.navbar-add-car:hover{
+    background-color: tomato;
+
+}
+
+
+.navbar-profile-image
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.hero-section
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    margin-top : 10px;
+    
+    
+}
+.hero-section-cars
+{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    display: grid;
+    border-width: 2px;
+    
+    min-width: 100%;
+    border-color: tomato;
+    border-radius:25px;
+}
+.hero-section-car{
+    width:90%;
+    display: flex;
+
+    padding: 10px;
+    margin: 10px;
+    margin-left:5%;
+    border-width: 2px;
+    border-color: tomato;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+
+}
+.hero-section-cars-text
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 1000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    ;
+    
+}
+
+.hero-section-text-title {
+
+    display: flex column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+
+    width: 100%;
+    z-index: 1000;
+    
+    
+
+}
+.car-name{
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    margin-left: 40px;
+    
+}
+.car-model
+{
+    font-size: 1.0rem;
+    font-weight: bold;
+    
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.car-no{
+   
+    font-size: 0.8rem;
+    font-weight: bold;
+    
+    margin-left: 40px;
+}
+.car-price
+{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.hero-section-button
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: tomato;
+    margin-top : 20px;
+    margin-left: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+    z-index: 1000;
+    top: 0;
+    left: 0;
+  
+    
+}
+.car-start
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+    font-weight: bold;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+label{
+    background-color: tomato;
+    margin-top : 20px;
+    
+    border-radius: 5px;
+    padding:10px;
+    font-weight: bold;
+    
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    font-size: 1.0rem;
+    
+    
+}
+.car-date{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+    margin-top: 15px;
+    font-weight: bold;
+    z-index: 1000;
+    color :black;
+    
+    left: 0;
+}
+
+.hero-section-image{
+   image-rendering: auto;
+   border-image: round;
+   border-radius: 20px;
+}

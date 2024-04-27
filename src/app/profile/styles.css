@@ -1,0 +1,72 @@
+
+.profile-section-image{
+
+
+}
+
+
+.profile-section-image
+{
+    position: relative;
+    margin : 30px;
+
+    display: flex;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.profile-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
+
+.profile-box
+{   
+    
+    justify-content: space-around;
+    align-items: center;
+    
+
+    padding: 20px;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+   
+    border-width: 3px;
+    border-color: tomato;
+    border-radius: 25px;
+
+}
+.carbooked
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+    margin-top: 50px;
+    max-width: fit-content;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: tomato;
+    
+    
+}
+.booked-cars{
+    font-weight: bold ;
+}
+.profile-title
+{
+    margin-bottom: 30px;
+}

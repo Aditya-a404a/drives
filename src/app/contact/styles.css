@@ -1,0 +1,61 @@
+.links{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 30px;
+    font-weight: bold;
+    font-size: 2.0rem;
+    color : rgb(174, 158, 158);
+}
+.links-tag{
+    padding:15px;
+
+}
+
+.links-tag:hover
+
+{
+    background-color: tomato;
+    padding : 15px;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.hero-section{
+
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.0rem;
+    margin  : 10px;
+    font-weight : bold;
+    color : tomato;  
+}
+
+.hero-section-sub { 
+
+    display : flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left :45px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color : rgb(174, 158, 158);
+    
+}
+
+.footer 
+{
+
+    display : flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    margin-left :30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color : rgb(174, 158, 158);
+    
+}
