@@ -21,7 +21,7 @@ export default function Hero  ()  {
             </div>
 
             <div className="hero-rent">
-                <a className="hero-rent-tag" href='/p'>
+                <a className="hero-rent-tag" href='/dashboard'>
 
                     <h1 className="hero-rent-tag"> Rent Now</h1>
                 </a>
