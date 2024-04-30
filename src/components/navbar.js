@@ -41,7 +41,7 @@ export default function NavBar() {
                 ) }
                 { Boolean(user).valueOf() || (<div className="">
                     <a href="/api/auth/login" className="navbar-item">Login</a>
-                    <a href="/api/auth/signin" className="navbar-item">Signup</a>
+                    <a href="/api/auth/login" className="navbar-item">Signup</a>
                 </div>)}
             </div>
         </nav>
